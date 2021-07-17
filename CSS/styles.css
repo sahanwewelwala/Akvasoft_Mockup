@@ -105,7 +105,7 @@ a {
     color: #111;
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
     .nav {
         display: flex;
         justify-content: center;
@@ -142,7 +142,7 @@ a {
         text-align: center;
         display: flex;
         align-items: center;
-        color: #2e2e2e;
+        color: #111;
         text-transform: uppercase;
         font-family: "Raleway", sans-serif;
         font-weight: 800;
@@ -150,7 +150,7 @@ a {
 
     .logolink {
         text-decoration: none;
-        color: #2e2e2e;
+        color: #111;
     }
 
     .nav-toggle {
@@ -167,7 +167,7 @@ a {
     }
 
     .nav__link {
-        margin:-10px ;
+        margin: 0;
         color: #fff;
     }
 
@@ -206,7 +206,7 @@ a {
     .hamburger,
     .hamburger::before,
     .hamburger::after {
-        background-color: #2e2e2e;
+        background-color: #111;
         width: 2em;
         height: 3px;
         border-radius: 1em;
@@ -237,9 +237,9 @@ a {
         content: "";
         display: block;
         position: absolute;
-        bottom: -5px;
+        bottom: 10px;
         left: 0;
-        height: 5px;
+        height: 3px;
         width: 100%;
         background-color: #fff;
         transform-origin: right top;
@@ -257,6 +257,7 @@ a {
         transform: scale(1, 1);
     }
 }
+
 
 #Section_One{
    background-image: url("../Components/background.svg");
