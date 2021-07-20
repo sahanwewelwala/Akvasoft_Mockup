@@ -19,12 +19,15 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
-    background: #fff;
+    background: #feffff;
+}
+header{
+    margin-top: -25px;
 }
 
 .nav {
-    background-color: #fff;
-    height: 6rem;
+    background-color: inherit;
+    height: 7rem;
     width: 100%;
     display: block;
     justify-content: flex-start;
@@ -32,10 +35,11 @@ body {
     font-weight: 300;
     transition: 0.2s ease-in-out;
     position: fixed;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   
 }
 
 .nav__list {
+    color:#fff;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -44,9 +48,8 @@ body {
 }
 
 .nav__link {
-    color: #2a2a2a ;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 20px;
     position: relative;
     font-family: "product sans",sans-serif;
@@ -54,11 +57,18 @@ body {
     line-height: 16px;
     font-weight: 700;
     transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
-    color: #111;
+    color: #fff;
+}
+.nav-logo{
+
+    content: url(../Components/logo_white.png);
 }
 
-.nav-toggle {
-    display: none;
+.nav-active {
+    background-color:#fff ;
+    margin: 0%;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    
 }
 
 .nav__link::before {
@@ -69,20 +79,24 @@ body {
     left: 0;
     height: 3px;
     width: 100%;
-    background-color: #2a2a2a;
+    background-color: #2e2e2e;
     transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s, transform 0.2s ease-out;
 }
 
-.nav__link:active::before {
-    background-color: #2a2a2a;
+
+
+.nav__link-active::before {
+    background-color: #fff;
 }
+.nav
 
 .nav__link:hover::before,
 .nav__link:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
+    color: #fff;
 }
 
 .logo {
@@ -104,8 +118,13 @@ body {
 
 a {
     text-decoration: none;
-    color: #111;
+    color: inherit !important;
 }
+a:hover{
+    color: inherit  !important;
+    
+}
+
 
 @media (max-width: 800px) {
     .nav {
@@ -262,9 +281,9 @@ a {
 
 
 #Section_One{
-   background-image: url("../Components/background.svg");
+   background-image: url("../Components/background-2.svg");
    background-repeat: no-repeat;
-   
+   background-position: right;
    width: 100%;
    height: 850px;
    background-color: feffff;
@@ -272,14 +291,14 @@ a {
 
 #main-text{
     margin-top: 35%;
-    color: #1e3799;
+    color: #005BFF;
     font-size: 4em;
     font-family: "product sans",sans-serif;
     font-weight: 700 !important;
 }
 .button_main {
     color: white;
-    background-color: #1e3799;
+    background-color: #005BFF;
     text-align: center;
     font-weight: 600;
     text-decoration: none;
@@ -297,7 +316,9 @@ a {
     margin-top: 10%;
 }
 #Section_Two{
+    position: relative;
     min-height: 400px;
+    z-index: -10;
     
 }
 #Text_Main_Center{
@@ -378,6 +399,7 @@ iframe{
     width: 60%;
     margin-bottom: 3%;
 }
+
 #Process_Card_Main_Text{
     margin-top: 15%;
     font-family: "product sans",sans-serif;

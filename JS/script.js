@@ -15,3 +15,28 @@ navLinks.forEach((link) => {
         document.body.classList.remove("nav-open");
     });
 });
+const navbar = document.querySelector('.nav');
+window.onscroll = () => {
+    if (window.scrollY > 300) {
+        navbar.classList.add('nav-active');
+        navbar.classList.add('nav__link::before');
+        
+        var all = document.getElementsByClassName('nav__list');
+        for (var i = 0; i < all.length; i++) {
+            all[i].style.color = '#2e2e2e';
+            
+        }
+
+    } else {
+        document.getElementById("logo_navbar").src = "../Components/logo.png";
+        navbar.classList.remove('nav-active');
+        navbar.classList.add('nav__link-nav__item-active');
+        var all = document.getElementsByClassName('nav__list');
+        
+        for (var i = 0; i < all.length; i++) {
+            all[i].style.color = '#ffff';
+           
+        }
+        
+    }
+};
