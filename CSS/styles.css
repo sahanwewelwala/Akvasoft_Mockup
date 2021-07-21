@@ -126,12 +126,16 @@ a:hover{
 }
 
 
-
+#background-section{
+    position: absolute;
+    z-index: -100;
+    margin-left: 50%;
+    
+}
 
 #Section_One{
-   
-   background-image: url("../Components/background-2.svg");
-   background-repeat: no-repeat;
+  
+ 
    background-position: right;
    background-size: 50%;
    width: 100%;

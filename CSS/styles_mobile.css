@@ -1,4 +1,5 @@
-@media (max-width: 800px) {
+@media (max-width: 1080px) {
+    
     .nav {
         display: flex;
         justify-content: center;
@@ -22,7 +23,7 @@
         text-align: center;
         margin: 0;
         padding: 135px;
-        background-color: #111;
+        background-color: #2e2e2e;
         width: 100%;
     }
 
@@ -43,7 +44,7 @@
 
     .logolink {
         text-decoration: none;
-        color: #111;
+        color: rgb(117, 117, 117);
     }
 
     .nav-toggle {
@@ -102,7 +103,7 @@
     .hamburger::before,
     .hamburger::after {
        
-        background-color: #111;
+        background-color:#1e3799;
         width: 2em;
         height: 3px;
         border-radius: 1em;
@@ -157,8 +158,8 @@
         font-size: 35px;
         text-align: center;
     }
-    #Section_One{
-        background-image: none;
+    #background-section{
+        display: none;
     }
     .button_main {
         display: block;
@@ -170,4 +171,15 @@
         
         
     }
+    #Section_One{
+        height: 30%;
+    }
+    
+    
+}
+@media (max-width: 1280px){
+    #background-section{
+        margin-left: 55%;
+    }
+
 }
