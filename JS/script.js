@@ -40,3 +40,7 @@ window.onscroll = () => {
         
     }
 };
+AOS.init({
+    duration: 3000,
+  })
+  
