@@ -28,7 +28,7 @@ window.onscroll = () => {
         }
 
     } else {
-        document.getElementById("logo_navbar").src = "../Components/logo.png";
+        
         navbar.classList.remove('nav-active');
         navbar.classList.add('nav__link-nav__item-active');
         var all = document.getElementsByClassName('nav__list');
