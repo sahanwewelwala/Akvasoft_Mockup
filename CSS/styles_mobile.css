@@ -174,9 +174,60 @@
     #Section_One{
         height: 30%;
     }
-    
-    
-}
+    iframe{
+       height: 100%;
+       
+    }
+    #Section_Sub_Text{
+        text-align: center;
+    }
+    #Section_Two{
+        margin-bottom: 5%;
+    }
+    #Section_Four_Main_Text{
+        margin: 0%;
+    }
+    #Our_Skill_Img{
+        display: block;
+        margin-top: 5%;
+        width: 90%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .card-process{
+        display: block;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Section_Six_Sub_Text_2{
+        text-align: center;
+    }
+    #Section_Six_Sub_Text_1{
+        text-align: center;
+    }
+    #Section_Seven{
+        margin-bottom: 20%;
+    }
+    #Footer_Main_Text{
+        text-align: left;
+    }
+    #Footer_Main_Text-2{
+        text-align: left;
+        margin-bottom: 0%;
+    }
+    #Footer_Main_Sub_Text-2{
+        text-align: left;
+        
+    }
+    #Footer_Main_Text-3{
+        text-align: left;
+    }
+    .social-icons{
+      
+        float: left;
+    }
+    }
 @media (max-width: 1280px){
     #background-section{
         margin-left: 55%;

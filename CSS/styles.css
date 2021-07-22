@@ -130,6 +130,7 @@ a:hover{
     position: absolute;
     z-index: -100;
     margin-left: 50%;
+   
     
 }
 
@@ -146,6 +147,9 @@ a:hover{
     font-family: "product sans",sans-serif;
     font-weight: 700 !important;
 }
+
+  
+  
 .button_main {
     color: white;
     background-color: #1e3799;
@@ -253,7 +257,6 @@ iframe{
 .card-process{
     background: rgba( 30, 55, 153, 0.20 );
     box-shadow: 0 0px 0px 0 rgba( 31, 38, 135, 0.37 );
-   
     -webkit-backdrop-filter: blur( 0.0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -378,6 +381,28 @@ iframe{
     font-weight:normal;
     color: #2e2e2e;
     font-size: 1em;
+}
+#Footer_Main_Text-2{
+    font-family: "product sans",sans-serif;
+    color: #1e3799;
+    font-size: 1.5em;
+    font-weight:bolder;
+    text-align: center;
+}
+#Footer_Main_Sub_Text-2{
+    font-family: 'Lato', sans-serif;
+    font-weight:bolder;
+    color: #2e2e2e;
+    font-size: 1.25em;
+    margin-bottom: 0;
+    text-align: center;
+}
+#Footer_Main_Text-3{
+    font-family: "product sans",sans-serif;
+    color: #1e3799;
+    font-size: 1.5em;
+    font-weight:bolder;
+    text-align: right;
 }
 hr.rounded {
     border: 0;
