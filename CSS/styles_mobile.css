@@ -180,6 +180,7 @@
     }
     #Section_Sub_Text{
         text-align: center;
+        margin: 0%;
     }
     #Section_Two{
         margin-bottom: 5%;
@@ -203,15 +204,21 @@
     #Section_Six_Sub_Text_2{
         text-align: center;
     }
+    #processimg_2{
+        display: none;
+    }
     #Section_Six_Sub_Text_1{
         text-align: center;
     }
+
     #Section_Seven{
         margin-bottom: 20%;
     }
+
     #Footer_Main_Text{
         text-align: left;
     }
+
     #Footer_Main_Text-2{
         text-align: left;
         margin-bottom: 0%;
