@@ -165,6 +165,7 @@ a:hover{
     font-family: "product sans",sans-serif;
 }
 #main-image{
+   
     float: right;
     width: 110%;
     margin-top: 200px;
@@ -264,7 +265,7 @@ a:hover{
   border-radius: 14px;
   transform: none;
   border: 2px solid #283257;
-  top: 170px;
+  top: 20%;
 }
 
 .wheel {
@@ -473,7 +474,7 @@ iframe{
     text-align: right;
     font-weight:400;
     color: #283257;
-    font-size: 1.25em;
+    font-size: 1.35em;
    
     
 }
@@ -482,13 +483,13 @@ iframe{
     text-align: left;
     font-weight:400;
     color: #283257;
-    font-size: 1.25em;
+    font-size: 1.35em;
    
     
 }
 #processimg_2{
 
-    margin-top: 20%;
+    margin-top: 10%;
     width: 100%;
 }
 
