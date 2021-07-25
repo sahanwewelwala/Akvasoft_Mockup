@@ -1,3 +1,7 @@
+:root{
+    --hue-color: 240;
+    --white-color: #FFF;
+}
 
 .container{
     max-width: 1500px !important;
@@ -421,6 +425,19 @@ iframe{
 #Section_Four{
     min-height: 400px;
 }
+.card-whatwedo{
+    margin-bottom: 5%;
+    margin-left: 5%;
+  height: 450px;
+  box-shadow: -6px -6px 16px var(--white-color), 
+  6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
+  inset 6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
+  inset -6px -6px 16px var(--white-color),
+  inset -6px -6px 16px #fff;
+  border-radius: 12px;
+
+  
+}
 #Section_Four_Main_Text{
     font-family: 'Lato', sans-serif;
     margin-left: 30%;
@@ -432,6 +449,7 @@ iframe{
 
 }
 #Wedo_Img_One{
+    margin-top: 4%;
     display: block;
     margin-left: auto;
     margin-right: auto;
