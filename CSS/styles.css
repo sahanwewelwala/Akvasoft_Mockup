@@ -20,7 +20,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
     background: #feffff;
@@ -56,10 +56,10 @@ header{
     font-size: 20px;
     margin-right: 20px;
     position: relative;
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     line-height: 16px;
-    font-weight: 700;
+    font-weight: 500;
     transition: color 0.1s, background-color 0.1s, padding 0.2s ease-in;
     color: #fff;
 }
@@ -83,7 +83,8 @@ header{
     left: 0;
     height: 3px;
     width: 100%;
-    background-color: #2e2e2e;
+    background-color: #283257
+;
     transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s, transform 0.2s ease-out;
@@ -112,7 +113,7 @@ header{
     color: rgb(22, 8, 8);
     text-transform: uppercase;
     width: 25rem;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
 }
 
@@ -148,8 +149,8 @@ a:hover{
     margin-top: 40%;
     color: #1e3799;
     font-size: 4em;
-    font-family: "product sans",sans-serif;
-    font-weight: 700 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
 }
 
   
@@ -166,7 +167,7 @@ a:hover{
     border-radius: 15px;
     padding: 5px 50px 5px 50px;
     font-size: 16px;
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #main-image{
    
@@ -183,10 +184,10 @@ a:hover{
 }
 #Text_Main_Center{
     text-align: center;
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #1e3799;
     font-size: 4em;
-    font-weight: 700 !important;
+    font-weight:600 !important;
 }
 .mouse_scroll {
 	display: block;
@@ -395,7 +396,7 @@ iframe{
     margin-top: 10%;
     font-size: 2em;
     text-align: center;
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #1e3799;
 }
@@ -420,7 +421,7 @@ iframe{
     border-radius: 15px;
     padding: 5px 40px 5px 40px;
     font-size: 16px;
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #Section_Four{
     min-height: 400px;
@@ -458,11 +459,11 @@ iframe{
 }
 
 #Section_Four_Main_Text_Sub{
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #1e3799;
     font-size: 2em;
-    font-weight:bolder;
+    font-weight:500;
 }
 #Section_Five_Sub_Text{
     font-family: 'Lato', sans-serif;
@@ -482,11 +483,11 @@ iframe{
     width: 100%;
 }
 #Section_Six_Main_Text{
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #1e3799;
     font-size: 2.5em;
-    font-weight:bolder;
+    font-weight:500;
     
     
 }
@@ -528,17 +529,18 @@ iframe{
     
 }
 #Section_Seven_Main_Text{
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #1e3799;
     font-size: 1.5em;
-    font-weight:bolder;
+    font-weight:600;
 }
 #Section_Seven_Sub_Text{
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-weight:400;
-    color: #2e2e2e;
+    color: #283257
+;
     font-size: 1.25em;
 }
 #Footer{
@@ -560,55 +562,60 @@ iframe{
     z-index:-10 ;
 }
 #Footer_Main_Text{
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #1e3799;
     font-size: 1.5em;
-    font-weight:bolder;
+    font-weight:600;
 }
 #Footer_Main_Sub_Text{
     font-family: 'Lato', sans-serif;
     font-weight:bolder;
-    color: #2e2e2e;
+    color: #283257
+;
     font-size: 1.25em;
     margin-bottom: 0;
 }
 #Footer_Sub_Text{
     font-family: 'Lato', sans-serif;
     font-weight:normal;
-    color: #2e2e2e;
+    color: #283257
+;
     font-size: 1em;
 }
 #Footer_Main_Text-2{
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #1e3799;
     font-size: 1.5em;
-    font-weight:bolder;
+    font-weight:600;
     text-align: center;
 }
 #Footer_Main_Sub_Text-2{
     font-family: 'Lato', sans-serif;
-    font-weight:bolder;
-    color: #2e2e2e;
+    font-weight:600;
+    color: #283257
+;
     font-size: 1.25em;
     margin-bottom: 0;
     text-align: center;
 }
 #Footer_Main_Text-3{
-    font-family: "product sans",sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #1e3799;
     font-size: 1.5em;
-    font-weight:bolder;
+    font-weight:600;
     text-align: right;
 }
 hr.rounded {
     border: 0;
-    border-top: 5px solid #2e2e2e;
+    border-top: 5px solid #283257
+;
     border-radius: 5px;
   }
 
 #akavasoft_copyright{
-    font-family: "product sans",sans-serif;
-    color: #2e2e2e;
+    font-family: 'Poppins', sans-serif;
+    color: #283257
+;
     text-align: center;
     font-size: 1.5em;
     font-weight:normal;
@@ -617,7 +624,8 @@ hr.rounded {
     float: right;
     align-items: flex-end;
     align-items: baseline;
-    color: #2e2e2e;
+    color: #283257
+;
     margin: 10px 10px 10px 0px;
 }
 
