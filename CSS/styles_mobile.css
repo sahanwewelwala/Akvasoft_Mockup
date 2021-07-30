@@ -168,6 +168,7 @@
     }
     #main-image{
         margin-top: 40px;
+        width: 100%;
         
         
     }
@@ -203,6 +204,11 @@
     }
     #Section_Six_Sub_Text_2{
         text-align: center;
+    }
+    .card-whatwedo{
+        margin-left: 0%;
+        padding: 0%;
+
     }
     #processimg_2{
         display: none;
@@ -240,4 +246,16 @@
         margin-left: 45%;
     }
 
+
+}
+@media (min-width: 2150px){
+    #background-section{
+        margin-left: 50%;
+    }
+}
+@media (min-width: 3840px){
+    #background-section{
+        width: 60%;
+        margin-left: 50%;
+    }
 }

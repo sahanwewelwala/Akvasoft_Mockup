@@ -134,7 +134,8 @@ a:hover{
 #background-section{
     position: absolute;
     z-index: -100;
-    margin-left: 40%;
+    
+    margin-left: 45%;
    
     
 }
