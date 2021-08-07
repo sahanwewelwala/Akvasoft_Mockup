@@ -258,4 +258,8 @@
         width: 60%;
         margin-left: 50%;
     }
+    
+    .nav__list{
+        margin-top: -30px;
+    }
 }
