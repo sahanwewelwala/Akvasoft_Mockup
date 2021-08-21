@@ -205,7 +205,7 @@ a:hover{
 	margin: 0 auto;
 	width: 24px;
 	height: 100px;
-	margin-top: 0;
+	
 }
 
 
@@ -647,8 +647,10 @@ hr.rounded {
     height: 1000px;
 }
 #main-image-contact_us{
+    position: relative;
     margin-top: 200px;
     width: 140%;
+    z-index: 10;
 
 }
 #sub_text_section_one{
@@ -707,8 +709,10 @@ hr.rounded {
 }
 /*Our Services  Style*/
 #main-image-OurServices{
+    position: relative;
     margin-top: 200px;
     width: 100%;
+    z-index: 10;
 }
 #Section_One_Our_Services{
     height: 1000px;
