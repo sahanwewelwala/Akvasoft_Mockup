@@ -212,6 +212,11 @@
         padding: 0%;
 
     }
+    #processimg{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    }
     #processimg_2{
         display: none;
     }
@@ -242,11 +247,65 @@
       
         float: left;
     }
+    #akavasoft_copyright{
+        font-size: 1em;
     }
+    /*About Us Style mobile*/
+
+#sub_text_section_one{
+    text-align: center;
+}
+    #main-image-contact_us{
+        margin-top: 5%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    #Section_One_Contact_Us{
+        height:10%;
+    }
+    #Section_Two_About_Us{
+
+        height: 10%;
+    }
+    #Section_Sub_Text-2{
+        margin: auto;
+        margin-top: 5%;
+    }
+    #Section_Three_About_Us{
+    height: 10%;
+    }
+    
+      /*Our Services Style mobile*/
+    #main-image-OurServices{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #Section_One_Our_Services {
+        height: 10%;
+    }
+    #Section_Four_Main_Text{
+        margin-bottom: 10%;
+    }
+    #Section_Four_Our_Services{
+        height: 10%;
+    }
+    /*Contact us Style mobile*/
+    #Section_One_Contact_Us{
+        height: 10%;
+    }
+    #Section_Two_Contact_Us{
+        height: 10%;
+    }
+    #card-contactus{
+        margin: 7%;
+    }
+}
 @media (max-width: 1280px){
     #background-section{
         margin-left: 45%;
     }
+
 
 
 }

@@ -29,6 +29,7 @@ header{
     margin-top: -25px;
 }
 
+
 .nav {
     background-color: inherit;
     height: 7rem;
@@ -52,6 +53,7 @@ header{
 }
 
 .nav__link {
+    
     text-decoration: none;
     font-size: 20px;
     margin-right: 20px;
@@ -83,8 +85,7 @@ header{
     left: 0;
     height: 3px;
     width: 100%;
-    background-color: #283257
-;
+    background-color: #283257;
     transform-origin: right top;
     transform: scale(0, 1);
     transition: color 0.1s, transform 0.2s ease-out;
@@ -179,7 +180,7 @@ a:hover{
     float: right;
     width: 110%;
     margin-top: 200px;
-    -webkit-animation:spin 4.6s linear ;
+   
     
 }
 
@@ -193,12 +194,22 @@ a:hover{
     z-index: -10;
     
 }
+#background-section-2{
+    position: absolute;
+    z-index: -10;
+    margin-bottom: 400px;
+    
+  
+}
 #Text_Main_Center{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
-    font-size: 4em;
+    margin-top: 40px;
+    font-size: 3em;
     font-weight:600 !important;
+   
+    
 }
 .mouse_scroll {
 	display: block;
@@ -645,6 +656,9 @@ hr.rounded {
 /*Conatct Us Style*/
 #Section_One_Contact_Us{
     height: 1000px;
+    background-size: 100%;
+    background-image: url(../Components/bacground_bellow-2.png);
+    background-repeat: no-repeat;
 }
 #main-image-contact_us{
     position: relative;
@@ -679,6 +693,7 @@ hr.rounded {
 #Section_Two_About_Us{
     height: 450px;
 }
+
 #Section_Sub_Text-2{
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
@@ -708,6 +723,11 @@ hr.rounded {
     font-weight:600;
 }
 /*Our Services  Style*/
+#Section_One_Our_Services{
+    background-size: 100%;
+    background-image: url(../Components/bacground_bellow-2.png);
+    background-repeat: no-repeat;
+}
 #main-image-OurServices{
     position: relative;
     margin-top: 200px;
