@@ -297,9 +297,13 @@
     #Section_Two_Contact_Us{
         height: 10%;
     }
+    #contactUs-img-workinghours{
+        width: 70%;
+    }
     #card-contactus{
         margin: 7%;
     }
+    
 }
 @media (max-width: 1280px){
     #background-section{

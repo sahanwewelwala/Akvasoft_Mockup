@@ -399,7 +399,7 @@ iframe{
 }
 #card{
     margin-top: 10%;
-    min-height: 540px;
+    min-height: 400px;
     background: rgba( 255, 255, 255, 0.45 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.25 );
     backdrop-filter: blur( 20.0px );
@@ -407,6 +407,13 @@ iframe{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 10%;
+}
+#card-img{
+    display: block;
+    width: 70%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -437,7 +444,7 @@ iframe{
     border: 1px solid#1e3799 ;
     font-size: 15px ;
     border-radius: 15px;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 35px 15px 35px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
@@ -667,16 +674,16 @@ hr.rounded {
     backdrop-filter: blur( 20.0px );
     -webkit-backdrop-filter: blur( 20.0px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-   
+    border: 1px solid rgba( 255, 255, 255, 0.18 );  
 }
-#card-img{
+#contactUs-img-workinghours{
     display: block;
     width: 25%;
     margin-top: 0%;
     margin-left: auto;
     margin-right: auto;
 }
+
 /*About Us Style*/
 #Section_Two_About_Us{
     height: 450px;
