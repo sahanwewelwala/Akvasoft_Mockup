@@ -688,17 +688,18 @@ hr.rounded {
 #Section_Two_About_Us{
     height: 450px;
 }
-
-#Section_Sub_Text-2{
+#Section_Sub_Text-2-about_us{
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
     font-size: 1.5em;
-    font-weight:normal;
+    margin-top: 5%;
+    font-weight: normal;
     text-align: center;
-    margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
+
 }
+
 #Section_Three_About_Us{
     height: 450px;
 }
