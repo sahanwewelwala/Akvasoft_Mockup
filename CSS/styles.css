@@ -409,13 +409,7 @@ iframe{
     padding: 10%;
 }
 
-#card-img{
-    display: block;
-    width: 70%;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #Main_Text_Card{
     margin-top: 10%;
     font-size: 1.5em;
@@ -666,17 +660,22 @@ hr.rounded {
     height: 300px;
 }
 #card-contactus{
-    margin-top: 10%;
-    min-height: 500px;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-top: 5%;
+    min-height: 200px;
     background: rgba( 255, 255, 255, 0.55 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 20.0px );
     -webkit-backdrop-filter: blur( 20.0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    margin: 5% 30% 5%  30%;
+   
+}
+#card-img{
+    display: block;
+    width: 25%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*About Us Style*/
 #Section_Two_About_Us{
@@ -686,10 +685,10 @@ hr.rounded {
 #Section_Sub_Text-2{
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight:normal;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
 }
