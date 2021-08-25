@@ -17,7 +17,7 @@ navLinks.forEach((link) => {
 });
 const navbar = document.querySelector('.nav');
 window.onscroll = () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 100) {
         navbar.classList.add('nav-active');
         navbar.classList.add('nav__link::before');
         

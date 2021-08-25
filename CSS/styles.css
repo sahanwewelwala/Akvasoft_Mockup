@@ -399,32 +399,33 @@ iframe{
 }
 #card{
     margin-top: 10%;
-    min-height: 500px;
-    margin-left: 7%;
-    margin-right: 7%;
-    background: rgba( 255, 255, 255, 0.55 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    min-height: 540px;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.25 );
     backdrop-filter: blur( 20.0px );
     -webkit-backdrop-filter: blur( 20.0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10%;
 }
 
 #card-img{
+    display: block;
     width: 70%;
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #Main_Text_Card{
     margin-top: 10%;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #1e3799;
 }
 #Sub_Text_Card{
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-align: center;
     font-weight: 600;
     color: #4a69bd;
@@ -440,9 +441,9 @@ iframe{
     text-decoration: none;
     display: inline-block;
     border: 1px solid#1e3799 ;
-    font-size: 20px !important;
+    font-size: 15px ;
     border-radius: 15px;
-    padding: 5px 40px 5px 40px;
+    padding: 15px 30px 15px 30px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
@@ -455,8 +456,8 @@ iframe{
     margin-right: 5%;
   height: 450px;
   box-shadow: -6px -6px 16px var(--white-color), 
-  6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
-  inset 6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1), 
+  6px 6px 16px hsla(var(--hue-color), 20%, 90%, 1), 
+  inset 6px 6px 16px hsla(var(--hue-color), 20%, 90%, 1), 
   inset -6px -6px 16px var(--white-color),
   inset -6px -6px 16px #fff;
   border-radius: 12px;
@@ -486,7 +487,7 @@ iframe{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #1e3799;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight:500;
 }
 #Section_Five_Sub_Text{
@@ -514,6 +515,7 @@ iframe{
     color: #1e3799;
     font-size: 2.5em;
     font-weight:500;
+    margin-top: 17%;
     
     
 }
@@ -550,8 +552,8 @@ iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     
 }
 #Section_Seven_Main_Text{
@@ -565,9 +567,9 @@ iframe{
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-weight:400;
-    color: #283257
-;
+    color: #283257;
     font-size: 1.25em;
+    margin-bottom: 25%;
 }
 #Footer{
     margin-top: 5%;
@@ -575,18 +577,7 @@ iframe{
    background-color: #fff;
  
 }
-#Footer_Right{
-    position: relative;
-    margin-top: -150px;
-    float: right;
-   
-    z-index:-10 ;
-}
-#Footer_Left{
-    position: relative;
-    margin-top: -130px;
-    z-index:-10 ;
-}
+
 #Footer_Main_Text{
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
@@ -613,28 +604,26 @@ iframe{
     color: #1e3799;
     font-size: 1.5em;
     font-weight:600;
-    text-align: center;
+    text-align: left;
 }
 #Footer_Main_Sub_Text-2{
     font-family: 'Lato', sans-serif;
     font-weight:600;
-    color: #283257
-;
+    color: #283257;
     font-size: 1.25em;
     margin-bottom: 0;
-    text-align: center;
+    text-align: left;
 }
 #Footer_Main_Text-3{
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
     font-size: 1.5em;
     font-weight:600;
-    text-align: right;
+    text-align: left;
 }
 hr.rounded {
     border: 0;
-    border-top: 5px solid #283257
-;
+    border-top: 5px solid #283257;
     border-radius: 5px;
   }
 
@@ -646,8 +635,8 @@ hr.rounded {
     font-weight:normal;
   }
   .social-icons {
-    float: right;
-    align-items: flex-end;
+    float: left;
+    align-items: flex-start;
     align-items: baseline;
     color: #283257
 ;
