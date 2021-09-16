@@ -1,8 +1,4 @@
-:root{
-    --hue-color: 240;
-    --white-color: #FFF;
-}
-
+/* Margin in container */
 .container{
     max-width: 1500px !important;
 }
@@ -17,7 +13,7 @@ html {
     box-sizing: border-box;
     
 }
-
+/* Body Text */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -25,6 +21,7 @@ body {
     overflow-x: hidden;
     background: #feffff;
 }
+/* Navigation Bar*/
 header{
     margin-top: -25px;
 }
@@ -131,7 +128,7 @@ a:hover{
     
 }
 
-
+/* Section one Background */
 #background-section{
     position: absolute;  
     margin-left: 50%;
@@ -139,7 +136,7 @@ a:hover{
     
 }
 
-
+/* Section One */
 #Section_One{
    width: 100%;
    height: 1000px;
@@ -149,7 +146,7 @@ a:hover{
 }
 
 
-
+/* Section one main text */
 #main-text{
     margin-top: 40%;
     color: #1e3799;
@@ -159,7 +156,7 @@ a:hover{
 }
 
   
-  
+/* Section One Button  */
 .button_main {
     color: white;
     background-color: #1e3799;
@@ -174,43 +171,15 @@ a:hover{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
+/* Section One Main Image */
 #main-image{
     position: relative;
     z-index: 10;
     float: right;
     width: 110%;
     margin-top: 200px;
-   
-    
 }
-
-
-
-
-
-#Section_Two{
-    position: relative;
-    min-height: 400px;
-    z-index: -10;
-    
-}
-#background-section-2{
-    position: absolute;
-    z-index: -10;
-    margin-bottom: 400px;
-    
-  
-}
-#Text_Main_Center{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: #1e3799;
-    margin-top: 40px;
-    font-size: 3em;
-    font-weight:600 !important;
-   
-    
-}
+/* Mouse Scroll */
 .mouse_scroll {
 	display: block;
 	margin: 0 auto;
@@ -380,7 +349,31 @@ a:hover{
   100% { opacity: 1; }
 }
 
+/* Section Two */
+#Section_Two{
+    position: relative;
+    min-height: 400px;
+    z-index: -10;
+}
 
+#background-section-2{
+    position: absolute;
+    z-index: -10;
+    margin-bottom: 400px;
+}
+/* Secondary Main Text Center  */
+#Text_Main_Center{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #1e3799;
+    margin-top: 40px;
+    font-size: 3em;
+    font-weight:600 !important;
+   
+    
+}
+
+/* Secondary Sub  Text   */
 #Section_Sub_Text{
     font-family: 'Lato', sans-serif;
     margin-left: 15%;
@@ -391,12 +384,11 @@ a:hover{
     font-weight: 400 !important;
 
 }
-iframe{
-    margin-top: 10%;
-}
+/* Section Three */
 #Section_Three{
      margin-bottom: 5%;
 }
+/* Section Three Card  */
 #card{
     margin-top: 10%;
     min-height: 400px;
@@ -408,6 +400,7 @@ iframe{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding: 10%;
 }
+/* Section Three Card Image  */
 #card-img{
     display: block;
     width: 70%;
@@ -416,7 +409,7 @@ iframe{
     margin-right: auto;
 }
 
-
+/* Section Three Card Main Text  */
 #Main_Text_Card{
     margin-top: 10%;
     font-size: 1.5em;
@@ -425,12 +418,14 @@ iframe{
     font-weight: 600;
     color: #1e3799;
 }
+/* Section Three Card Sub Text  */
 #Sub_Text_Card{
     font-size: 1.25em;
     text-align: center;
     font-weight: 600;
     color: #4a69bd;
 }
+/* Section Three Card Button  */
 .Button_Sub{
     margin-left: 28%;
     margin-right: 28%;
@@ -448,9 +443,11 @@ iframe{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
+/* Section Four */
 #Section_Four{
     min-height: 400px;
 }
+/* Section Four Card  */
 .card-whatwedo{
     margin-bottom: 5%;
     margin-left: 5%;
@@ -465,6 +462,7 @@ iframe{
 
   
 }
+/* Section Four Main Text  */
 #Section_Four_Main_Text{
     font-family: 'Lato', sans-serif;
     margin-left: 30%;
@@ -475,6 +473,7 @@ iframe{
     font-weight: 400 !important;
 
 }
+/* Section Four Card Image  */
 #Wedo_Img_One{
     margin-top: 4%;
     display: block;
@@ -483,7 +482,7 @@ iframe{
     height: 300px;
     width: 300px;
 }
-
+/* Section Four Sub  Text Main  */
 #Section_Four_Main_Text_Sub{
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -491,6 +490,7 @@ iframe{
     font-size: 1.5em;
     font-weight:500;
 }
+/* Section Five Sub Text  */
 #Section_Five_Sub_Text{
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -499,17 +499,19 @@ iframe{
     font-size: 1.5em;
     
 }
-
+/* Section Six  */
 #Section_Six{
     margin-top: 5%;
     min-height: 600px;
 }
+/* Section Six Process Image One  */
 #processimg{
     margin-left: 100px;
     margin-top: 0%;
     width: 60%;
   
 }
+/* Section Six  Main Text  */
 #Section_Six_Main_Text{
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -520,6 +522,7 @@ iframe{
     
     
 }
+/* Section Six Sub Text  */
 #Section_Six_Sub_Text_1{
     font-family: 'Lato', sans-serif;
     text-align: left;
@@ -529,6 +532,7 @@ iframe{
    
     
 }
+/* Section Sub Text 2  */
 #Section_Six_Sub_Text_2{
     font-family: 'Lato', sans-serif;
     text-align: right;
@@ -538,17 +542,19 @@ iframe{
    
     
 }
+/* Section Six Process Image Two  */
 #processimg_2{
    
     margin-top: 20%;
     width: 90%;
 }
-
+/* Section Seven  */
 #Section_Seven{
     
     margin-top: 5%;
     min-height: 650px;
 }
+/* Section Seven  Client Logo  */
 #client_Logo{
     display: block;
     margin-left: auto;
@@ -557,6 +563,7 @@ iframe{
     width: 200px;
     
 }
+/* Section Seven Main Text  */
 #Section_Seven_Main_Text{
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -564,6 +571,7 @@ iframe{
     font-size: 1.5em;
     font-weight:600;
 }
+/* Section Seven Sub Text  */
 #Section_Seven_Sub_Text{
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -572,19 +580,21 @@ iframe{
     font-size: 1.25em;
     margin-bottom: 25%;
 }
+/* Footer */
 #Footer{
     margin-top: 5%;
    min-height: 25rem;
    background-color: #fff;
  
 }
-
+/* Footer Main Text  */
 #Footer_Main_Text{
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
     font-size: 1.5em;
     font-weight:600;
 }
+/* Footer Main Sub Text  */
 #Footer_Main_Sub_Text{
     font-family: 'Lato', sans-serif;
     font-weight:bolder;
@@ -593,6 +603,7 @@ iframe{
     font-size: 1.25em;
     margin-bottom: 0;
 }
+/* Footer Sub Text  */
 #Footer_Sub_Text{
     font-family: 'Lato', sans-serif;
     font-weight:normal;
@@ -600,6 +611,7 @@ iframe{
 ;
     font-size: 1em;
 }
+/* Footer Main Text Two  */
 #Footer_Main_Text-2{
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
@@ -607,6 +619,7 @@ iframe{
     font-weight:600;
     text-align: left;
 }
+/* Footer Sub Text  Two */
 #Footer_Main_Sub_Text-2{
     font-family: 'Lato', sans-serif;
     font-weight:600;
@@ -615,6 +628,7 @@ iframe{
     margin-bottom: 0;
     text-align: left;
 }
+/* Footer Main Text Three  */
 #Footer_Main_Text-3{
     font-family: 'Poppins', sans-serif;
     color: #1e3799;
@@ -622,12 +636,22 @@ iframe{
     font-weight:600;
     text-align: left;
 }
+/* Footer Social Icons*/
+.social-icons {
+    float: left;
+    align-items: flex-start;
+    align-items: baseline;
+    color: #283257;
+    margin: 10px 10px 10px 0px;
+}
+/* Footer Separator*/
 hr.rounded {
     border: 0;
     border-top: 5px solid #283257;
     border-radius: 5px;
   }
 
+  /* Footer Copyright  */
 #akavasoft_copyright{
     font-family: 'Poppins', sans-serif;
     color: #283257;
@@ -635,14 +659,7 @@ hr.rounded {
     font-size: 1.5em;
     font-weight:normal;
   }
-  .social-icons {
-    float: left;
-    align-items: flex-start;
-    align-items: baseline;
-    color: #283257
-;
-    margin: 10px 10px 10px 0px;
-}
+
 /*Conatct Us Style*/
 #Section_One_Contact_Us{
     height: 1000px;
@@ -650,6 +667,7 @@ hr.rounded {
     background-image: url(../Components/bacground_bellow-2.png);
     background-repeat: no-repeat;
 }
+/*Conatct Us Main Image*/
 #main-image-contact_us{
     position: relative;
     margin-top: 200px;
@@ -657,15 +675,18 @@ hr.rounded {
     z-index: 10;
 
 }
+/*Conatct Us Subtext*/
 #sub_text_section_one{
     font-family: 'Poppins', sans-serif;
     color: #283257;
     font-size: 1.5em;
     font-weight:normal;
 }
+/*Conatct Us Section Two*/
 #Section_Two_Contact_Us{
     height: 300px;
 }
+/*Conatct Us Card*/
 #card-contactus{
     margin-top: 5%;
     min-height: 200px;
@@ -676,6 +697,7 @@ hr.rounded {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );  
 }
+/*Conatct Us Working Hours Image*/
 #contactUs-img-workinghours{
     display: block;
     width: 25%;
@@ -685,6 +707,8 @@ hr.rounded {
 }
 
 /*About Us Style*/
+
+/*About Us Section Two*/
 #Section_Two_About_Us{
     height: 450px;
 }
@@ -699,16 +723,18 @@ hr.rounded {
     margin-right: 20%;
 
 }
-
+/*About Us Section Three*/
 #Section_Three_About_Us{
     height: 450px;
 }
+/*About Us Our Team */
 #our_Team{
     width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+/*About Us Our Team Main Text*/
 #our_Team_Main_Text{
     margin-top: 5%;
     margin-bottom: 1%;
@@ -719,23 +745,29 @@ hr.rounded {
     font-weight:600;
 }
 /*Our Services  Style*/
+
+/*Our Services  Section One*/
+#Section_One_Our_Services{
+    height: 1000px;
+}
+/*Our Services  Section One Image*/
 #Section_One_Our_Services{
     background-size: 100%;
     background-image: url(../Components/bacground_bellow-2.png);
     background-repeat: no-repeat;
 }
+/*Our Services Main Image */
 #main-image-OurServices{
     position: relative;
     margin-top: 200px;
     width: 100%;
     z-index: 10;
 }
-#Section_One_Our_Services{
-    height: 1000px;
-}
+/*Our Services Section Four */
 #Section_Four_Our_Services{
     height: 1000px;
 }
+/*Our Services Section Four Main text */
 #Section_Four_Our_Services_Main_Text{
     margin-top: 5%;
     margin-bottom: 1%;
@@ -745,6 +777,7 @@ hr.rounded {
     font-size: 1.5em;
     font-weight:normal;
 }
+/*Our Services Section Four Sub text */
 #Section_Four_Our_Services_Sub_Text{
     margin-top: 5%;
     margin-bottom: 1%;
@@ -754,6 +787,7 @@ hr.rounded {
     font-size: 1.5em;
     font-weight:normal;
 }
+/*Our Services Section Four Image Two */
 #Sub-image-OurServices{
     width:60%;
     display: block;
